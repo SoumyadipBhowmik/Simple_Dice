@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#windowArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px auto;
+    height: 450px;
+    width: 450px;
+    border: 7px solid black;
+    align-items: center;
+}
+
+#diceArea{
+    height: 150px;
+    width: 150px;
+    margin: 100px auto;
+    background-size: cover;
+    background-image: url(DicePack\6.png);
+}
+
+button{
+    font-family: monospace;
+    font-size: larger;
+    height: 80px;
+    width: 100px;
+
+}
